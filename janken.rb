@@ -45,7 +45,8 @@ loop do
             case_pattern = "draw"
         end
     elsif your_chois == 3
-        case_pattern = "you_lose"
+        puts "ゲームを終了します"
+        break
     else
         puts "0,1,2,3のいずれかを入力してください"
         puts "---------------------------------------------"
